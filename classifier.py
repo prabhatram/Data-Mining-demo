@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 import matplotlib.pyplot as plt
 
 #Load dataset
-df = pd.read_csv("bookstore_behaviour_with_label.csv")
+df = pd.read_csv("bookstore_behavior.csv")
 
 #Select relevant features. These must be numeric or encoded. Encoded means categorical features converted to numbers. 
 # Categorical means features that have discrete values like "red", "blue", "green" or "small", "medium", "large".
